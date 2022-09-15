@@ -2,6 +2,7 @@
 ## Heston model parameters
 ## m1, m2, N for the stock price, volatility and time grid
 ## c and d constant for non-uniform grid
+## w: from 0 (explicit) to 1 (implicit)
 ## Method: Choose between 'DO' (Douglas), 'CS' (Craig-Sneyd), 'MCS' (Modiﬁed Craig-Sneyd) or 'HV' (Hundsdorfer-Verwer) schemes
 ## American: TRUE for pricing an American option or FALSE to price an European option
 
