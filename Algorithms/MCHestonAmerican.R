@@ -1,4 +1,3 @@
-#Simulate the Stock price and volatility prices
 #Inputs:
 ## Heston parameters
 ## NS: Number of paths
@@ -7,6 +6,7 @@
 ## BStype: Negative variance corrector
 #Output: European and American option price and executed paths at time t
 
+#Simulate the Stock price and volatility paths
 simulation <- function(NS,NT,T,r,xi,kappa,theta,rho,S0,V0,simtype,BStype,seeds){
   dt = T/NT
   set.seed(0)
@@ -58,6 +58,7 @@ simulation <- function(NS,NT,T,r,xi,kappa,theta,rho,S0,V0,simtype,BStype,seeds){
   return(list("S"=S,"V"=V))
 }
 
+#Apply LSM algorithm
 MCHestonAmerican <- function(NS,NT,S0,V0,K,T,r,xi,kappa,theta,rho,opttype,simtype,BStype,seeds = NULL){
   #Initialization
   dt = T/NT
