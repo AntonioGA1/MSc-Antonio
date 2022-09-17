@@ -39,7 +39,7 @@ This is known as Control Variate (CV) method and can be used as well to minimize
 It compates the exact GBM for European and American options with the European and American option using the Heston model with constant volatility (we set the volatility parameters to be 0).
 
 ### Comparison table
-It compares both, ADI and LSM method and their computational time.
+It compares both, ADI and LSM methods and their computational time.
 
 ## Bibliography
  - Heston, S. L. (1993). A closed-form solution for options with stochastic volatility with applications to bond and currency options. The review of financial studies, 6(2),327–343.
