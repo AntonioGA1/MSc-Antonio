@@ -36,7 +36,7 @@ It compares the exact European option price with the ADI and LSM approximation f
 This is known as Control Variate (CV) method and can be used as well to minimize the American option price Error.
 
 ### GBM tables
-It compates the exact GBM for European and American options with the European and American option using the Heston model with constant volatility (we set the volatility parameters to be 0).
+It compares the exact GBM for European and American options with the European and American option using the Heston model with constant volatility (we set the volatility parameters to be 0).
 
 ### Comparison table
 It compares both, ADI and LSM methods and their computational time.
